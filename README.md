@@ -1,7 +1,7 @@
 # 타요타요
 
 <p align="center">
-    <img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/81402944/c3a31702-ef95-493c-86b6-c5fb596d63f3" width="40%"/>
+    <img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/81402944/d2883a35-12a9-4c99-a52b-563aa3009b9e" width="40%"/>
 </p>
 
 ## 1. 프로젝트 소개
