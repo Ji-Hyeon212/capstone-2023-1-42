@@ -39,8 +39,11 @@
 ![전체 시스템 구성도](https://github.com/pnucse-capstone/capstone-2023-1-42/assets/81402944/45a47b53-ccb9-4764-a193-90e3e6550774)
 
 <br>
+
 ###FrontEnd(React)
+
 ####dependency
+
 | Dependency       | Version   |
 |------------------|-----------|
 | Next.js          | 13.4.7    |
