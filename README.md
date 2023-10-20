@@ -40,14 +40,14 @@
 
 <br>
 
-|dependency|버전|
-|:------:|---|---|
-|Next.js|13.4.7|
-|TypeScript|5.1.5|
-|Recoil|0.7.7|
-|axios|1.4.0|
-|tailwindCSS|3.3.2|
-|react-hook-form|7.45.2|
+| Dependency       | Version   |
+|------------------|-----------|
+| Next.js          | 13.4.7    |
+| TypeScript       | 5.1.5     |
+| Recoil           | 0.7.7     |
+| axios            | 1.4.0     |
+| tailwindCSS      | 3.3.2     |
+| react-hook-form  | 7.45.2    |
 
 ---
 
