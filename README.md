@@ -88,15 +88,11 @@ client
 
 |로그인|회원 가입|대시보드|차량 검색|
 |---|---|---|---|
-|<p align="center">
-  <img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/65022c49-2e49-4478-a1b2-3025fa641eb5">
-</p>|<p align="center">
-  <img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/4a24043e-dfae-4d7c-b47d-3c03f72eb100">
-</p>|<p align="center">
-  <img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/f8c60808-1206-441d-b004-9772580cbd73">
-</p>|<p align="center">
-  <img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/73e4e30b-152e-4a15-bc34-503a1663cd9f">
-</p>|
+|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/65022c49-2e49-4478-a1b2-3025fa641eb5">
+|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/4a24043e-dfae-4d7c-b47d-3c03f72eb100">
+|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/f8c60808-1206-441d-b004-9772580cbd73">
+|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/73e4e30b-152e-4a15-bc34-503a1663cd9f">
+|
 |차량 관리|차량 등록|채팅|마이페이지|
 |<p align="center">
   <img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/af6dea04-f012-4c24-aac6-d7d68a1b06c6">
