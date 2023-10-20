@@ -39,7 +39,8 @@
 ![전체 시스템 구성도](https://github.com/pnucse-capstone/capstone-2023-1-42/assets/81402944/45a47b53-ccb9-4764-a193-90e3e6550774)
 
 <br>
-
+###FrontEnd(React)
+####dependency
 | Dependency       | Version   |
 |------------------|-----------|
 | Next.js          | 13.4.7    |
@@ -49,6 +50,36 @@
 | tailwindCSS      | 3.3.2     |
 | react-hook-form  | 7.45.2    |
 
+####Directory Structure
+```
+client
+├─── public             # Images files
+|
+└─── src
+    │
+    ├── app             # app routing
+    │
+    │
+    ├── components      # Components
+    │
+    │
+    ├── Context      # ContextAPI for using map
+    │
+    │
+    ├── enumerates          # Enumerates for sequential data
+    │
+    │
+    ├── hooks          # hooks for logic seperation 
+    │
+    │
+    ├── recoil           # recoil for global state management
+    │
+    │
+    ├── types           # types used global
+    │
+    │
+    └── utils           # util functions
+```
 ---
 
 ## 4. 소개 및 시연 영상
