@@ -1,0 +1,77 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.12'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'pnu.cse.TayoTayo'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '11'
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+	maven {
+		url = uri("https://repo.sovrin.org/repository/maven-public")
+	}
+}
+
+dependencies {
+	// 스프링 부트 웹 애플리케이션 개발을 위한 필수 의존성을 제공
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// 자바 개발자 편의성 기능 제공
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	// 배포시 사용할 MySQL 의존성
+	runtimeOnly 'com.mysql:mysql-connector-j'
+
+	// 테스트를 작성하기 위한 기능을 제공
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// H2 데이터베이스를 사용하기 위한 의존성을 제공 (테스트 용)
+	runtimeOnly 'com.h2database:h2'
+
+	// 시큐리티 관련
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation group: 'com.auth0', name: 'java-jwt', version: '4.3.0'
+	testImplementation 'org.springframework.security:spring-security-test'
+
+	// JPA (Java Persistence API)를 제공
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	// swagger ui
+	implementation 'org.springdoc:springdoc-openapi-ui:1.6.15'
+
+	// requirements of hyperledger indy
+	implementation("net.java.dev.jna:jna:5.12.1")
+	implementation("org.apache.commons:commons-lang3:3.12.0")
+	implementation("commons-io:commons-io:2.11.0")
+	implementation("org.json:json:20230227")
+	implementation("org.hyperledger:indy:1.15.0")
+
+	// hyperledger fabric-gateway
+	implementation 'org.hyperledger.fabric:fabric-gateway:1.3.0'
+	implementation 'io.grpc:grpc-netty-shaded:1.56.0'
+
+	// AWS-s3
+	//implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
+
+	//websocket
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	implementation 'org.webjars:sockjs-client:1.5.1'
+	implementation 'org.webjars:stomp-websocket:2.3.4'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
