@@ -52,8 +52,41 @@
 
 ## 5. 설치 및 사용법
 
-본 프로젝트는 Ubuntu 20.04 버전에서 개발되었으며 함께 포함된 다음의 스크립트를 수행하여 
-관련 패키지들의 설치와 빌드를 수행할 수 있습니다.
+본 프로젝트는 다음과 같은 단계에 따라 관련 패키지들의 설치와 빌드를 수행할 수 있습니다.
+
+1. 먼저 타요타요 프로젝트를 클론합니다.
 ```
-$ ./install_and_build.sh
+- git clone https://github.com/pnucse-capstone/capstone-2023-1-42.git
 ```
+
+2. Indy Pool 먼저 docker에 build하고 실행합니다.
+```
+- Windows : docker build -f indy-pool.dockerfile -t indy_pool ../ci
+- Mac OS : docker build --platform linux/amd64 -f indy-pool.dockerfile -t indy_pool ../ci
+- docker run -itd -p 9701-9708:9701-9708 indy_pool
+```
+
+3. tayonetwork.sh 스크립트 파일로 Fabric 네트워크 실행시키기
+```
+- cd network
+- ./tayonetwork.sh
+```
+
+4. 환경 변수 추가해주기
+```
+- Path에 capstone-2023-1-42\libindy\lib 절대 경로 추가하기
+- ex) - D:\capstone-2023-1-42\libindy\lib
+```
+
+5. 프로젝트 내에 Tayo-Backend 서버랑 VC_Service 서버 빌드 후 실행 시키기
+```
+- cd Tayo-Backend
+- ./gradlew build
+- java -jar ./build/libs/Tayo-BE-0.0.1-SNAPSHOT.jar
+
+- cd VC_Service
+- ./gradlew build
+- java -jar ./build/libs/VC_Service-0.0.1-SNAPSHOT.jar
+```
+
+6. React 서버 실행시키기
