@@ -62,6 +62,50 @@
  ┗ 📂network                    // Hyperledger Fabric's network
 ```
 
+### FrontEnd(React)
+
+#### Dependency
+
+| Dependency       | Version   |
+|------------------|-----------|
+| Next.js          | 13.4.7    |
+| TypeScript       | 5.1.5     |
+| Recoil           | 0.7.7     |
+| axios            | 1.4.0     |
+| tailwindCSS      | 3.3.2     |
+| react-hook-form  | 7.45.2    |
+
+#### Directory Structure
+```
+client
+├─── public             # Images files
+|
+└─── src
+    │
+    ├── app             # app routing
+    │
+    ├── components      # Components
+    │
+    ├── Context      # ContextAPI for using map
+    │
+    ├── enumerates          # Enumerates for sequential data
+    │
+    ├── hooks          # hooks for logic seperation 
+    │
+    ├── recoil           # recoil for global state management
+    │
+    ├── types           # types used global
+    │
+    └── utils           # util functions
+```
+
+#### 페이지 소개
+
+|로그인|회원 가입|대시보드|차량 검색|
+|---|---|---|---|
+|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/65022c49-2e49-4478-a1b2-3025fa641eb5" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/4a24043e-dfae-4d7c-b47d-3c03f72eb100" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/f8c60808-1206-441d-b004-9772580cbd73" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/73e4e30b-152e-4a15-bc34-503a1663cd9f" width=300>|
+|차량 관리|차량 등록|채팅|마이페이지|
+|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/af6dea04-f012-4c24-aac6-d7d68a1b06c6" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/ef4fb659-17fd-499e-8657-f3c666fe127d" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/8f6dfd65-a8d6-4a2b-905d-d4474a9fe1ab" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/9d7332ee-38f8-44d1-9987-d555d5069712" width=300>|
 ---
 
 ## 6. 설치 및 사용법
