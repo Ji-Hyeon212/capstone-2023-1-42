@@ -136,7 +136,7 @@
 
 **6. React로 웹 클라이언트를 실행합니다.**
 ```
-- cd Tayo-FE
+- cd Tayo_FE
 - npm install
 - npm run dev
 ```
