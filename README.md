@@ -7,8 +7,7 @@
 ## 1. 프로젝트 소개
 
 본 과제에서는 스마트 시티에서 시민들 간에 개인 모빌리티를 공유할 수 있는 **P2P 방식의 공유 모빌리티 서비스**를 개발하고자 한다.
-<br>**DID를 통한 차량 검증**으로 개인이 차량의 정보를 관리하는 주체가 되도록 하고, **허가형 블록체인**으로 검증된 차량만 거래에 참여할 수 있으며
-<br>내부에서만 모든 거래 정보가 투명하게 공개되는 안전한 거래 시스템을 설계한다.
+<br>**DID를 통한 차량 검증**으로 개인이 차량의 정보를 관리하는 주체가 되도록 하고, **허가형 블록체인**으로 검증된 차량만 거래에 참여할 수 있으며 내부에서만 모든 거래 정보가 투명하게 공개되는 안전한 거래 시스템을 설계한다.
 <br>
 
 ---
@@ -59,7 +58,9 @@
 |로그인|회원 가입|대시보드|차량 검색|
 |---|---|---|---|
 |<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/65022c49-2e49-4478-a1b2-3025fa641eb5" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/4a24043e-dfae-4d7c-b47d-3c03f72eb100" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/f8c60808-1206-441d-b004-9772580cbd73" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/73e4e30b-152e-4a15-bc34-503a1663cd9f" width=300>|
+
 |차량 관리|차량 등록|채팅|마이페이지|
+|---|---|---|---|
 |<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/af6dea04-f012-4c24-aac6-d7d68a1b06c6" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/ef4fb659-17fd-499e-8657-f3c666fe127d" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/8f6dfd65-a8d6-4a2b-905d-d4474a9fe1ab" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/9d7332ee-38f8-44d1-9987-d555d5069712" width=300>|
 ---
 
@@ -73,6 +74,7 @@
 ```javascript
 📦capstone-2023-1-42
  ┣ 📂Tayo-Backend               // 타요타요(차량 공유) 서비스 Server
+ ┣ 📂Tayo_FE                    // 타요타요 Web Client
  ┣ 📂VC_Service                 // 차량 VC 발급 서비스 Server
  ┣ 📂bin                        // Hyperledger Fabric's binaries
  ┣ 📂chaincode                  // Hyperledger Fabric's chaincode
@@ -108,13 +110,15 @@
 <p align="center"><sub>여기까지 완료되면 위 사진과 같이 docker desktop에서 container들을 확인할 수 있습니다.</sub></p>
 
 **4. 환경 변수를 설정합니다.**
-### Windows
+
 ```
+* Windows
 - Path에 capstone-2023-1-42\libindy\lib 절대 경로 추가하기
 - ex) - D:\capstone-2023-1-42\libindy\lib
 ```
-### Mac OS
+
 ```
+* Mac OS
 - 프로젝트 실행 전 dylb 환경변수를 설정합니다. (필수)
 - LD_LIBRARY_PATH = D:\capstone-2023-1-42\libindy\lib
 - DYLD_LIBRARY_PATH = D:\capstone-2023-1-42\libindy\lib
