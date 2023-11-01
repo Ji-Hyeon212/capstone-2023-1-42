@@ -64,6 +64,8 @@
 |<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/af6dea04-f012-4c24-aac6-d7d68a1b06c6" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/ef4fb659-17fd-499e-8657-f3c666fe127d" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/8f6dfd65-a8d6-4a2b-905d-d4474a9fe1ab" width=300>|<img src="https://github.com/pnucse-capstone/capstone-2023-1-42/assets/78369633/9d7332ee-38f8-44d1-9987-d555d5069712" width=300>|
 ---
 
+#### 시연 영상
+
 [![타요타요 서비스 영상](https://img.youtube.com/vi/AQU9ngW8Rj4/0.jpg)](https://www.youtube.com/watch?v=AQU9ngW8Rj4)
 
 <br>
