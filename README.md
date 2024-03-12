@@ -1,3 +1,14 @@
+```
+Commit 기록은 해당 링크들 참고해주세요. 
+```
+
+**[BE Commit 기록](https://github.com/PNU-TayoTayo/Tayo-BE)**
+
+**[BE Commit 기록](https://github.com/PNU-TayoTayo/Tayo-VC-Issuer)**
+
+**[FE Commit 기록](https://github.com/PNU-TayoTayo/Tayo-FE)**
+
+
 # TayoTayo (타요타요)
 
 <p align="center">
